@@ -12,7 +12,7 @@ const numeros = [
     {'n': 10, 'vendido': false},
     {'n': 11, 'vendido': false},
     {'n': 12, 'vendido': true},
-    {'n': 13, 'vendido': false},
+    {'n': 13, 'vendido': true},
     {'n': 14, 'vendido': false},
     {'n': 15, 'vendido': false},
     {'n': 16, 'vendido': true},
