@@ -9,27 +9,34 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <style>
-        .carousel-control-next-icon, .carousel-control-prev-icon{
-            background-color: #0303033f;
-        }
-    </style>
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Notebook ASUS X515</title>
 </head>
 
 <body>
-    
-    <div class="container-md">
-        <p style="font-size: xx-large;" class="text-center">Notebook ASUS</p>
-        <p class="text-center">
-            Intel® Core™ i5 1035G1,
-            Memória RAM 8 GB,
-            Armazenamento 256 GB SSD PCIe G3X2,
-            Placa de Vídeo NVIDIA® GeForce® MX130 2GB,
-            Tela antirreflexo de 15,6”,
-            modelo X515JF-EJ153T
-        </p>
 
+    <div class="container-fluid">
+        <div class="imgTopo">
+            <img src="resource/ImgTopo.png" class="img-fluid">
+        </div>
+        <p class="fontTopDetalhes alignCente">Intel® Core™ i5 1035G1 8 GB</p>
+        <p class="fontTopDetalhes alignCente">(GeForce® MX130 2GB) 256GB SSD W10 15.6"</p>
+    </div>
+
+    <hr>  
+    <div class="container">
+        <p class="fontT1 alignCente">CLIQUE E COMPRE SEU NÚMERO: </p>
+        <div class="row" id="numeros">           
+            
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <!-- Imagens -->
+    <div class="container-md">
+        <p class="fontTopDetalhes alignCente">ITEM SORTEADO</p>        
+        <p class="fontTopDetalhes">FOTOS:</p>
         <div class="row">            
                 <div class="col-xs-12 col-sm-6 col-md-4">                    
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -75,14 +82,53 @@
                     </a>
                 </div>                
                 
-        </div>  
+        </div> 
+
+         <!-- Fixa técnica -->
+        <p class="fontTopDetalhes">FIXA TÉCNICA DO NOTEBOOK</p>
         
-    </div>        
-    
+        <p class="textos">Intel® Core™ i5 1035G1</p>
+        <p class="textos">Memória RAM 8 GB</p>
+        <p class="textos">Armazenamento 256 GB SSD PCIe G3X2</p>
+        <p class="textos">Placa de Vídeo NVIDIA® GeForce® MX130 2GB</p>
+        <p class="textos">Tela antirreflexo de 15,6”</p>
+        <p class="textos">modelo X515JF-EJ153T</p>       
+        
+    </div>
+    <br>
+    <hr>
+    <!-- Rugulamentos -->
+    <div class="container">
+        <div class="row regulamentos">
 
-    
+            <p class="fontTopDetalhes">RUGULAMENTO:</p>
+            <p class="textos">Previsão do sorteio: 06/11/2021;</p>
+            <p class="textos">Número sorteado: 1º prêmio da loteria federal da data do sorteio;</p>
+            <p class="textos">Número ganhador: Referente aos dois últimos dígitos do número sorteado, como no exemplo abaixo.</p>
+           
+            <div class="col-12 col-sm-6 col-lg-3">
+                <figure class="figure">
+                    <figcaption class="figure-caption"><p class="fontT2">Exemplo:</p></figcaption>
+                    <img src="resource/Exemplo.png" class="figure-img img-fluid rounded" width="" >                
+                </figure>
+            </div>          
 
+            
+            <p class="fontTopDetalhes">CONDIÇÕES PARA O SORTEIO:</p>
+            <p class="textos">1.	Sorteio ocorrerá somente após venda mínima de 90% dos números;</p>
+            <p class="textos">2.	Sorteio será adiado caso venda mínima não tenha sido atingida;</p>
+            <p class="textos">3.	Sorteio poderá ser antecipado caso 100% dos números tenham sido vendidos;</p>
+            <p class="textos">4.	Caso sorteio seja antecipado ou adiado os participantes serão notificados;</p>
+            <p class="textos">5.	Quando o sorteio ocorrer os participantes serão notificados;</p>
+            
+            <a href="http://loterias.caixa.gov.br/wps/portal/loterias/landing/federal" class="link-secondary">Site do sorteio</a>
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS9ymSHu24bPuzjoHWVZWxsq23uHUR82USBveC5Y36Abi8-zmMd2OwJrUY6LHYZE5C3q7DAKFLtHJWs/pubhtml?gid=0&single=true" class="link-success">Já comprou seu número?  Veja seu nome na lista.</a>
 
+        </div>
+    </div>
+
+    <br>
+    <hr> 
 
 
     <!-- Modal -->
@@ -174,6 +220,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
