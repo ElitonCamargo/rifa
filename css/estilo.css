@@ -5,6 +5,9 @@ body{
     background-size: cover;
 
 }
+.invisivel{
+    visibility: hidden;
+}
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: #0303033f;
 }
