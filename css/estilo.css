@@ -40,6 +40,10 @@ body{
     margin: 8px;    
 }
 
+hr {    
+    opacity: .15;
+}
+
 .textos{
     font-weight: 200;
     font-size: larger;
