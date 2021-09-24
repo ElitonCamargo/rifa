@@ -76,7 +76,7 @@ const numeros = [
     {'n': 74, 'vendido': true},
     {'n': 75, 'vendido': false},
     {'n': 76, 'vendido': false},
-    {'n': 77, 'vendido': false},
+    {'n': 77, 'vendido': true},
     {'n': 78, 'vendido': false},
     {'n': 79, 'vendido': true},
     {'n': 80, 'vendido': false},
