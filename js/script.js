@@ -119,3 +119,4 @@ function comprar(numero){
 $( document ).ready(function() {
     listarNumeros();
 });
+//git add .;  git commit -m "52";  git push;
