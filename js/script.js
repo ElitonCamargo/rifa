@@ -51,7 +51,7 @@ const numeros = [
     {'n': 49, 'vendido': false},
     {'n': 50, 'vendido': false},
     {'n': 51, 'vendido': false},
-    {'n': 52, 'vendido': false},
+    {'n': 52, 'vendido': true},
     {'n': 53, 'vendido': false},
     {'n': 54, 'vendido': false},
     {'n': 55, 'vendido': false},
