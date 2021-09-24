@@ -105,7 +105,7 @@ function listarNumeros(){
     numeros.forEach(numeros => {
         var vendido = numeros.vendido?'disabled':''
         var classCss = numeros.vendido?'btn-secondary':'btn-outline-success';
-        $("#numeros").append(`<button onclick="comprar('${numeros.n}')" type="button" class="btn btn-lg ${classCss} btn-circle" ${vendido}>${numeros.n}</button>`);
+        $("#numeros").append(`<div class="divNumeros"><button onclick="comprar('${numeros.n}')" type="button" class="btn btn-lg ${classCss} btn-circle" ${vendido}>${numeros.n}</button></div>`);
     })
 }
 
