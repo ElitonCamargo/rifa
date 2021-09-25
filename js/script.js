@@ -41,7 +41,7 @@ const numeros = [
     {'n': 39, 'vendido': false},
     {'n': 40, 'vendido': false},
     {'n': 41, 'vendido': false},
-    {'n': 42, 'vendido': false},
+    {'n': 42, 'vendido': true},
     {'n': 43, 'vendido': false},
     {'n': 44, 'vendido': false},
     {'n': 45, 'vendido': false},
