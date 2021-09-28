@@ -18,7 +18,7 @@ const numeros = [
     {'n': 16, 'vendido': true},
     {'n': 17, 'vendido': false},
     {'n': 18, 'vendido': false},
-    {'n': 19, 'vendido': false},
+    {'n': 19, 'vendido': true},
     {'n': 20, 'vendido': false},
     {'n': 21, 'vendido': true},
     {'n': 22, 'vendido': false},
