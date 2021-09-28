@@ -32,7 +32,7 @@ const numeros = [
     {'n': 30, 'vendido': false},
     {'n': 31, 'vendido': false},
     {'n': 32, 'vendido': false},
-    {'n': 33, 'vendido': false},
+    {'n': 33, 'vendido': true},
     {'n': 34, 'vendido': false},
     {'n': 35, 'vendido': false},
     {'n': 36, 'vendido': false},
